@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+
+  double diameter, circum;
+  double PI = 3.1415926536;
+  
+  cout<< "\n\n Find the circumference of any circle :\n";
+	cout<<"----------------------------------------------------\n";		
+  cout<<" Input the diameter of a circle : ";
+  cin>>diameter; // input assign a value to the variable diameter
+  
+  circum = diameter * PI;
+  cout<< "\n\n The circumference of the circle = "<< circum << endl;
+ 
+ }
+  
