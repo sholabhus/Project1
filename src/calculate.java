@@ -17,12 +17,12 @@ public class calculate {
         double area = width * height;// To find area
         double perimeter = width + width + height + height;// find perimeter
 
-        if (width < 0.5 || width > 3.5) {
-            System.out.println("Window width must be between 0.5 and 3.5");
+        if (width < 0.5 || width > 3.5) {     // width less than or greater than width
+            System.out.println("Window width must be between 0.5 and 3.5"); // print output
         }
 
-        if (height < 0.5 || height > 2.0) {
-            System.out.println("Window height must be between 0.5 and 2.0");
+        if (height < 0.5 || height > 2.0) {  // height less than  or greater than height
+            System.out.println("Window height must be between 0.5 and 2.0");  //print output
         }
 
         double feet = perimeter * 3.25; // converting to feet
@@ -35,12 +35,12 @@ public class calculate {
         // System.out.print(first + " feet " + inches + " inches");
 
 
-        if (inches < 1) {
-            System.out.print("You will need " + area + " meters squared of glass and " + first + " feet of wood. ");
+        if (inches < 1) {  // inches less than 1
+            System.out.print("You will need " + area + " meters squared of glass and " + first + " feet of wood. "); //print output
 
         } else {
 
-            System.out.print("You will need " + area + " meters squared of glass and " + first + " feet " + inches + " inches of wood. ");
+            System.out.print("You will need " + area + " meters squared of glass and " + first + " feet " + inches + " inches of wood. ");//print output
 
         }
     }
